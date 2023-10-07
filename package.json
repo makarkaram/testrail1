@@ -1,0 +1,26 @@
+{
+  "name": "testrail1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-run": "npx playwright test",
+    "test:run": "npx playwright test --headed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makarkaram/testrail1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makarkaram/testrail1/issues"
+  },
+  "homepage": "https://github.com/makarkaram/testrail1#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.38.0"
+  },
+  "dependencies": {
+    "playwright": "^1.38.1"
+  }
+}
